@@ -1,6 +1,6 @@
-# Drop landing page demo
+Cool Features:
 
-Demo site to be used for [Netlify Drop](https://app.netlify.com/drop).
+Dark/Light mode 😊
 
-Thanks to [Andy Bell](https://piccalil.li/) for [User-controlled light/dark mode](https://piccalil.li/tutorial/create-a-user-controlled-dark-or-light-mode/) and [Rasmus Andersson](https://twitter.com/rsms) for creating [Inter UI font](https://rsms.me/inter/).
+My social network links 👌
 
