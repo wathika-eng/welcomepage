@@ -7,15 +7,15 @@
 
 :root {
 
-  --color-teal-T1000: #052028;
+  --color-teal-T1000: #021f29;
   --color-teal-T900: #054861;
   --color-teal-T800: #0F6A80;
 
-  --color-gray-L700: #33373B;
+  --color-gray-L700: #06111d;
   --color-gray-L200: #F2F5F8;
-  --color-gray-D200: #A3A8AC;
+  --color-gray-D200: #850091;
 
-  --color-yellow-Y500: #FFB916;
+  --color-yellow-Y500: #b3b2b2;
   --color-yellow-Y400: #FFCF50;
 
   --color-red-R600: #DB4648;
@@ -162,13 +162,35 @@ main {
     padding: 1rem 0 0;
     flex: 1;
   }
+  .about2{
+    
+    display: none;
+    flex-direction: column;
+    height: 70%;
+    width: 70%;
+    transition: 1.5s;
+  }
+  .about2:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+  }
 }
 
 .about,
 .links {
   border-top: 4px solid var(--border-color);
 }
-
+.about2{
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 50%;
+  transition: 1.5s;
+}
+.about2:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
 .about > * {
   margin: 0 0 1rem;
   font-size: clamp(1rem, 1.5vw, 2.3rem);
@@ -218,7 +240,7 @@ main {
   z-index: 1;
 }
 .word:hover{
-  color: #A3A8AC;
+  color: crimson;
 }
 .links > a > strong:after {
   content: '';
