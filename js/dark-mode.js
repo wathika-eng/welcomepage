@@ -93,3 +93,5 @@ modeToggleButton.addEventListener('click', evt => {
 });
 
 applySetting();
+
+console.log(COLOR_MODE_KEY)
